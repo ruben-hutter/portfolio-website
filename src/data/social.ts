@@ -1,22 +1,22 @@
 export interface SocialLink {
-  label: string;
+  labelKey: string;
   url: string;
   icon: string;
 }
 
 export const socialLinks: SocialLink[] = [
   {
-    label: 'GitHub',
+    labelKey: 'social.github',
     url: 'https://github.com/ruben-hutter',
     icon: 'github',
   },
   {
-    label: 'LinkedIn',
+    labelKey: 'social.linkedin',
     url: 'https://linkedin.com/in/ruben-hutter-865b85255/',
     icon: 'linkedin',
   },
   {
-    label: 'Email',
+    labelKey: 'social.email',
     url: 'mailto:ruben@example.com',
     icon: 'mail',
   },

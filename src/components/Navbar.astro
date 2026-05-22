@@ -1,10 +1,25 @@
 ---
+import { useTranslations, type Lang, languages, getLocaleUrl } from '../i18n/utils';
+
+export interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
 const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Contact', href: '#contact' },
+  { label: t('nav.home'), href: '#home' },
+  { label: t('nav.about'), href: '#about' },
+  { label: t('nav.projects'), href: '#projects' },
+  { label: t('nav.contact'), href: '#contact' },
 ];
+
+const localeLinks = (Object.keys(languages) as Lang[]).map((l) => ({
+  code: l,
+  href: getLocaleUrl(l),
+  active: l === lang,
+}));
 ---
 
 <nav
@@ -26,6 +41,21 @@ const navLinks = [
             {link.label}
           </a>
         ))}
+        <div class="flex items-center gap-1 text-xs border-l border-gray-200 dark:border-gray-700 pl-4">
+          {localeLinks.map((link) => (
+            <a
+              href={link.href}
+              class:list={[
+                'px-1.5 py-0.5 rounded transition-colors',
+                link.active
+                  ? 'text-indigo-500 font-semibold'
+                  : 'text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400',
+              ]}
+            >
+              {link.code.toUpperCase()}
+            </a>
+          ))}
+        </div>
         <button
           id="theme-toggle"
           type="button"
@@ -64,6 +94,21 @@ const navLinks = [
           {link.label}
         </a>
       ))}
+      <div class="flex items-center gap-2 pt-2 border-t border-gray-200 dark:border-gray-700">
+        {localeLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              'text-xs px-2 py-1 rounded transition-colors',
+              link.active
+                ? 'text-indigo-500 font-semibold'
+                : 'text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400',
+            ]}
+          >
+            {link.code.toUpperCase()}
+          </a>
+        ))}
+      </div>
       <button
         id="theme-toggle-mobile"
         type="button"

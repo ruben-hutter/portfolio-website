@@ -1,18 +1,26 @@
 ---
 import { projects } from '../data/projects';
+import { useTranslations, type Lang } from '../i18n/utils';
+
+export interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
 ---
 
 <section id="projects" class="py-20">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
-    <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-4">Projects</h2>
+    <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-4">{t('projects.heading')}</h2>
     <div class="w-16 h-1 bg-indigo-500 mx-auto mb-12 rounded-full"></div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       {projects.map((project) => (
         <div class="bg-white dark:bg-gray-900 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
           <div class="p-6 flex-1 flex flex-col">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">{project.title}</h3>
-            <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">{project.description}</p>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">{t(`projects.${project.slug}.title`)}</h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-4 flex-1">{t(`projects.${project.slug}.description`)}</p>
             <div class="flex flex-wrap gap-2 mb-4">
               {project.tags.map((tag) => (
                 <span class="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 rounded">
@@ -28,7 +36,7 @@ import { projects } from '../data/projects';
                   rel="noopener noreferrer"
                   class="text-sm text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"
                 >
-                  GitHub &rarr;
+                  {t('projects.githubLink')}
                 </a>
               )}
               {project.demo && (
@@ -38,7 +46,7 @@ import { projects } from '../data/projects';
                   rel="noopener noreferrer"
                   class="text-sm text-indigo-500 hover:text-indigo-600 dark:text-indigo-400 dark:hover:text-indigo-300 font-medium"
                 >
-                  Live Demo &rarr;
+                  {t('projects.demoLink')}
                 </a>
               )}
             </div>

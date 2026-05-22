@@ -1,0 +1,68 @@
+{
+  "layout": {
+    "title": "Ruben Hutter — Portfolio",
+    "description": "Portfolio di Ruben Hutter — studente MSE in Information & Cyber Security alla FHNW."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi sono",
+    "projects": "Progetti",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "greeting": "Ciao, sono",
+    "viewWork": "I miei progetti",
+    "getInTouch": "Contattami"
+  },
+  "about": {
+    "heading": "Chi sono",
+    "skillsHeading": "Competenze e tecnologie"
+  },
+  "profile": {
+    "tagline": "Assistente di ricerca e studente MSE in Information & Cyber Security",
+    "bio": [
+      "Sono assistente di ricerca alla FHNW nel gruppo Information and Cybersecurity (ICS), mentre frequento il Master of Science in Engineering (MSE) con specializzazione in Information and Cyber Security.",
+      "Ho una laurea triennale in Informatica dall'Università di Basilea.",
+      "Mi piace sviluppare per il web, lavorare con Linux ed esplorare temi di sicurezza e programmazione di sistema."
+    ]
+  },
+  "skills": {
+    "languages": "Linguaggi",
+    "web-frameworks": "Web e framework",
+    "tools-platforms": "Strumenti e piattaforme",
+    "interests": "Interessi"
+  },
+  "projects": {
+    "heading": "Progetti",
+    "githubLink": "GitHub →",
+    "demoLink": "Demo live →",
+    "cvlt": {
+      "title": "cvlt.ch",
+      "description": "Sito web del Club Volo Libero Ticino — un club di parapendio nel Ticino. Sviluppato con Next.js e TypeScript, con un design moderno e gestione dei contenuti."
+    },
+    "traceguard": {
+      "title": "TraceGuard",
+      "description": "Ricerca sull'ottimizzazione dell'esplorazione dei percorsi nell'esecuzione simbolica utilizzando la taint analysis per priorizzare gli input utente."
+    },
+    "xc-cup-ranker": {
+      "title": "XC-Cup Ranker",
+      "description": "Genera automaticamente classifiche per gli eventi di parapendio Swissleague XC-Cup estraendo i dati di volo da XContest."
+    },
+    "trshell": {
+      "title": "TRShell",
+      "description": "Una shell Linux personalizzata, sviluppata come progetto di sistemi operativi, con funzionalità di tiling window manager per gestire più shell e job."
+    }
+  },
+  "contact": {
+    "heading": "Contattami",
+    "description": "Sono sempre aperto a nuove opportunità, progetti interessanti o semplicemente per fare una chiacchierata."
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  },
+  "footer": {
+    "builtWith": "Creato con"
+  }
+}

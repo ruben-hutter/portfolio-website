@@ -6,13 +6,17 @@ import About from '../components/About.astro';
 import Projects from '../components/Projects.astro';
 import Contact from '../components/Contact.astro';
 import Footer from '../components/Footer.astro';
+import { useTranslations, type Lang } from '../i18n/utils';
+
+const lang: Lang = 'en';
+const t = useTranslations(lang);
 ---
 
-<Layout title="Ruben Hutter — Portfolio">
-  <Navbar />
-  <Hero />
-  <About />
-  <Projects />
-  <Contact />
-  <Footer />
+<Layout title={t('layout.title')} description={t('layout.description')} lang={lang}>
+  <Navbar lang={lang} />
+  <Hero lang={lang} />
+  <About lang={lang} />
+  <Projects lang={lang} />
+  <Contact lang={lang} />
+  <Footer lang={lang} />
 </Layout>
