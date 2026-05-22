@@ -1,6 +1,5 @@
 export interface Project {
-  title: string;
-  description: string;
+  slug: string;
   tags: string[];
   github?: string;
   demo?: string;
@@ -8,33 +7,24 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'cvlt.ch',
-    description:
-      "Website for Club Volo Libero Ticino — a paragliding club in Ticino, Switzerland. Built with Next.js and TypeScript, featuring a modern design and content management.",
+    slug: 'cvlt',
     tags: ['TypeScript', 'Next.js', 'Tailwind CSS'],
     github: 'https://github.com/ruben-hutter/cvlt_web',
     demo: 'https://cvlt.ch',
   },
   {
-    title: 'TraceGuard',
-    description:
-      'Research on optimizing path exploration in symbolic execution using taint analysis to prioritize user inputs.',
+    slug: 'traceguard',
     tags: ['TypeScript', 'Python', 'C'],
     github: 'https://github.com/ruben-hutter/TraceGuard',
   },
   {
-    title: 'XC-Cup Ranker',
-    description:
-      'Automatically generates ranking lists for Swissleague XC-Cup paragliding events by scraping flight data from XContest.',
+    slug: 'xc-cup-ranker',
     tags: ['Python', 'Shell'],
     github: 'https://github.com/ruben-hutter/xc-cup-ranker',
   },
   {
-    title: 'TRShell',
-    description:
-      'A custom Linux shell built as an OS project, featuring tiling window manager-like functionality to manage multiple shells and jobs.',
+    slug: 'trshell',
     tags: ['C', 'Python'],
     github: 'https://github.com/ruben-hutter/TRShell',
   },
-
 ];

@@ -1,0 +1,30 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Hero from '../../components/Hero.astro';
+import About from '../../components/About.astro';
+import Projects from '../../components/Projects.astro';
+import Contact from '../../components/Contact.astro';
+import Footer from '../../components/Footer.astro';
+import { useTranslations, type Lang } from '../../i18n/utils';
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: 'de' } },
+    { params: { lang: 'fr' } },
+    { params: { lang: 'it' } },
+  ];
+}
+
+const { lang } = Astro.params as { lang: Lang };
+const t = useTranslations(lang);
+---
+
+<Layout title={t('layout.title')} description={t('layout.description')} lang={lang}>
+  <Navbar lang={lang} />
+  <Hero lang={lang} />
+  <About lang={lang} />
+  <Projects lang={lang} />
+  <Contact lang={lang} />
+  <Footer lang={lang} />
+</Layout>

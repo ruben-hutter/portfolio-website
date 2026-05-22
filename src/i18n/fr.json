@@ -1,0 +1,68 @@
+{
+  "layout": {
+    "title": "Ruben Hutter — Portfolio",
+    "description": "Portfolio de Ruben Hutter — étudiant MSE en Information & Cyber Security à la FHNW."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "viewWork": "Voir mes projets",
+    "getInTouch": "Me contacter"
+  },
+  "about": {
+    "heading": "À propos",
+    "skillsHeading": "Compétences et technologies"
+  },
+  "profile": {
+    "tagline": "Assistant de recherche et étudiant MSE en Information & Cyber Security",
+    "bio": [
+      "Je suis assistant de recherche à la FHNW dans le groupe Information and Cybersecurity (ICS), tout en poursuivant mon Master of Science in Engineering (MSE) avec spécialisation en Information and Cyber Security.",
+      "Je suis titulaire d'un bachelor en informatique de l'Université de Bâle.",
+      "J'aime développer pour le web, travailler avec Linux et explorer des sujets en sécurité et programmation système."
+    ]
+  },
+  "skills": {
+    "languages": "Langages",
+    "web-frameworks": "Web et frameworks",
+    "tools-platforms": "Outils et plateformes",
+    "interests": "Centres d'intérêt"
+  },
+  "projects": {
+    "heading": "Projets",
+    "githubLink": "GitHub →",
+    "demoLink": "Démo en ligne →",
+    "cvlt": {
+      "title": "cvlt.ch",
+      "description": "Site web du Club Volo Libero Ticino — un club de parapente au Tessin. Développé avec Next.js et TypeScript, avec un design moderne et une gestion de contenu."
+    },
+    "traceguard": {
+      "title": "TraceGuard",
+      "description": "Recherche sur l'optimisation de l'exploration de chemins dans l'exécution symbolique en utilisant l'analyse de marquage pour prioriser les entrées utilisateur."
+    },
+    "xc-cup-ranker": {
+      "title": "XC-Cup Ranker",
+      "description": "Génère automatiquement des classements pour les événements de parapente Swissleague XC-Cup en extrayant les données de vol de XContest."
+    },
+    "trshell": {
+      "title": "TRShell",
+      "description": "Un shell Linux personnalisé, développé comme projet système, avec des fonctionnalités de gestion de fenêtres en mosaïque pour gérer plusieurs shells et jobs."
+    }
+  },
+  "contact": {
+    "heading": "Me contacter",
+    "description": "Je suis toujours ouvert aux nouvelles opportunités, projets intéressants ou simplement pour échanger."
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "Courriel"
+  },
+  "footer": {
+    "builtWith": "Créé avec"
+  }
+}

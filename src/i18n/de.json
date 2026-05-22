@@ -1,0 +1,68 @@
+{
+  "layout": {
+    "title": "Ruben Hutter — Portfolio",
+    "description": "Ruben Hutter's Portfolio — MSE-Student in Information & Cyber Security an der FHNW."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "viewWork": "Meine Projekte",
+    "getInTouch": "Kontakt aufnehmen"
+  },
+  "about": {
+    "heading": "Über mich",
+    "skillsHeading": "Fähigkeiten & Technologien"
+  },
+  "profile": {
+    "tagline": "Wissenschaftlicher Mitarbeiter & MSE-Student in Information & Cyber Security",
+    "bio": [
+      "Ich bin wissenschaftlicher Mitarbeiter an der FHNW in der Forschungsgruppe Information and Cybersecurity (ICS) und absolviere gleichzeitig meinen Master of Science in Engineering (MSE) mit Spezialisierung in Information and Cyber Security.",
+      "Ich habe einen Bachelor-Abschluss in Informatik von der Universität Basel.",
+      "Ich entwickle gerne Web-Anwendungen, arbeite mit Linux und befasse mich mit Themen aus den Bereichen Security und Systemprogrammierung."
+    ]
+  },
+  "skills": {
+    "languages": "Sprachen",
+    "web-frameworks": "Web & Frameworks",
+    "tools-platforms": "Tools & Plattformen",
+    "interests": "Interessen"
+  },
+  "projects": {
+    "heading": "Projekte",
+    "githubLink": "GitHub →",
+    "demoLink": "Live-Demo →",
+    "cvlt": {
+      "title": "cvlt.ch",
+      "description": "Website für den Club Volo Libero Ticino — einen Gleitschirmclub im Tessin. Entwickelt mit Next.js und TypeScript mit modernem Design und Content Management."
+    },
+    "traceguard": {
+      "title": "TraceGuard",
+      "description": "Forschung zur Optimierung der Pfadexploration in symbolischer Ausführung mittels Taint-Analyse zur Priorisierung von Benutzereingaben."
+    },
+    "xc-cup-ranker": {
+      "title": "XC-Cup Ranker",
+      "description": "Erstellt automatisch Ranglisten für Swissleague XC-Cup Gleitschirm-Events durch das Scrapen von Flugdaten von XContest."
+    },
+    "trshell": {
+      "title": "TRShell",
+      "description": "Eine eigene Linux-Shell, entwickelt als Betriebssystem-Projekt, mit Tiling-Window-Manager-Funktionalität zur Verwaltung mehrerer Shells und Jobs."
+    }
+  },
+  "contact": {
+    "heading": "Kontakt aufnehmen",
+    "description": "Ich bin immer offen für neue Möglichkeiten, interessante Projekte oder einfach einen Austausch."
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "E-Mail"
+  },
+  "footer": {
+    "builtWith": "Erstellt mit"
+  }
+}
