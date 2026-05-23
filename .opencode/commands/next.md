@@ -16,3 +16,5 @@ You are a project planner. Do the following steps IN ORDER:
    - **Step-by-step implementation plan**
    - **Potential risks or considerations**
 6. Do NOT make any changes. Just present the plan and wait for the user to approve before implementing.
+
+IMPORTANT: If working on a GitHub issue, clearly state the issue number (e.g. "Working on issue #N") so it can be referenced when committing. The commit message should include `Closes #N` so GitHub auto-closes the issue on push.

@@ -1,6 +1,6 @@
 # Portfolio Website
 
-My personal portfolio website, built with [Astro](https://astro.build) and Tailwind CSS.
+My personal portfolio website, built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
 
 ## Getting started
 
