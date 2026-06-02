@@ -27,4 +27,14 @@ export const projects: Project[] = [
     tags: ['C', 'Python'],
     github: 'https://github.com/ruben-hutter/TRShell',
   },
+  {
+    slug: 'walrus',
+    tags: ['Rust', 'SQLite'],
+    github: 'https://github.com/Nifalu/walrus',
+  },
+  {
+    slug: 'libafl',
+    tags: ['Rust', 'C'],
+    github: 'https://github.com/AFLplusplus/LibAFL',
+  },
 ];

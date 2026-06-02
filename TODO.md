@@ -8,12 +8,12 @@ Already in place:
 - [x] SSH — key-only authentication (PasswordAuthentication no)
 - [x] Unattended security upgrades — active
 - [x] NTP — chrony running
+- [x] Security headers in Caddy (CSP, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy)
 
-Still to do:
-- [ ] Enable Fail2ban (installed but inactive) — `sudo systemctl enable --now fail2ban`
-- [ ] Add security headers in Caddy (CSP, X-Content-Type-Options, X-Frame-Options, Referrer-Policy)
-- [ ] Add rate limiting in Caddy
-- [ ] Consider changing SSH port from 22 (optional, reduces noise)
+Done:
+- [x] Enable Fail2ban — sshd jail, 3 retries / 10 min → 1h ban, nftables backend
+- [x] Add rate limiting — nftables at kernel level (30 new conn/s), systemd unit for persistence
+- [x] ~~Change SSH port~~ — skipped; Fail2ban + rate limiting sufficient
 
 ## Backups & Reliability
 
@@ -31,6 +31,7 @@ Still to do:
 
 ## Website Features
 
+- [ ] Replace Astro default favicon with custom one
 - [ ] Add analytics (GoatCounter or similar privacy-friendly option)
 - [ ] Add personal page — interests, hobbies, about me (consider separate subdomain)
 - [ ] Add statistics page — XContest data, paragliding stats, etc.

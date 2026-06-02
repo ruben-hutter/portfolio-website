@@ -21,9 +21,9 @@
   "profile": {
     "tagline": "Wissenschaftlicher Mitarbeiter & MSE-Student in Information & Cyber Security",
     "bio": [
-      "Ich bin wissenschaftlicher Mitarbeiter an der FHNW in der Forschungsgruppe Information and Cybersecurity (ICS) und absolviere gleichzeitig meinen Master of Science in Engineering (MSE) mit Spezialisierung in Information and Cyber Security.",
+      "Ich bin wissenschaftlicher Mitarbeiter am Institut für Mobile und Verteilte Systeme an der FHNW und absolviere gleichzeitig meinen Master of Science in Engineering (MSE) mit Spezialisierung in Information and Cyber Security.",
       "Ich habe einen Bachelor-Abschluss in Informatik von der Universität Basel.",
-      "Ich entwickle gerne Web-Anwendungen, arbeite mit Linux und befasse mich mit Themen aus den Bereichen Security und Systemprogrammierung."
+      "Ich arbeite gerne mit Linux, probiere neue Technologien und Frameworks aus und widme mich in meiner Freizeit kleinen Nebenprojekten."
     ]
   },
   "skills": {
@@ -51,6 +51,14 @@
     "trshell": {
       "title": "TRShell",
       "description": "Eine eigene Linux-Shell, entwickelt als Betriebssystem-Projekt, mit Tiling-Window-Manager-Funktionalität zur Verwaltung mehrerer Shells und Jobs."
+    },
+    "walrus": {
+      "title": "Walrus",
+      "description": "Ein leichtgewichtiges CLI-Zeiterfassungstool in Rust. Beitrag zur Unterstützung gleichzeitiger Sitzungen, themenbasierter Filterung und diversen Fehlerbehebungen."
+    },
+    "libafl": {
+      "title": "LibAFL",
+      "description": "Erweiterte Fuzzing-Bibliothek in Rust. Arbeit an der Unterstützung für concolic Ausführung zur Analyse von Binärbibliotheken ohne Quellcode, startend an einem wählbaren Einstiegspunkt."
     }
   },
   "contact": {
@@ -61,8 +69,5 @@
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "email": "E-Mail"
-  },
-  "footer": {
-    "builtWith": "Erstellt mit"
   }
 }

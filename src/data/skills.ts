@@ -6,18 +6,18 @@ export interface SkillGroup {
 export const skillGroups: SkillGroup[] = [
   {
     slug: 'languages',
-    skills: ['TypeScript', 'Python', 'Java', 'C', 'TeX', 'Bash'],
+    skills: ['Java', 'Python', 'C', 'C++', 'Rust', 'Bash', 'JavaScript', 'TypeScript', 'SQL', 'Lua', 'MATLAB', 'TeX', 'Typst'],
   },
   {
     slug: 'web-frameworks',
-    skills: ['Next.js', 'Astro', 'Tailwind CSS', 'HTML/CSS', 'Node.js'],
+    skills: ['HTML/CSS', 'Node.js', 'Next.js', 'Astro', 'React', 'Tailwind CSS', 'Payload CMS'],
   },
   {
     slug: 'tools-platforms',
-    skills: ['Git', 'Docker', 'Linux', 'Nix', 'VS Code', 'Neovim'],
+    skills: ['Linux', 'Neovim', 'Tmux', 'Git', 'Docker', 'Nix'],
   },
   {
     slug: 'interests',
-    skills: ['Cyber Security', 'Systems Programming', 'Web Development'],
+    skills: ['Systems Programming', 'Cybersecurity', 'Homelab & Infrastructure', 'Web Development', 'Open Source'],
   },
 ];

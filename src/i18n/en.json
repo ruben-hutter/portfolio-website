@@ -21,9 +21,9 @@
   "profile": {
     "tagline": "Research Assistant & MSE Student in Information & Cyber Security",
     "bio": [
-      "I'm a Research Assistant at FHNW in the Information and Cybersecurity (ICS) group, while pursuing my Master of Science in Engineering (MSE) with a specialization in Information and Cyber Security.",
+      "I'm a Research Assistant at FHNW in the Institute of Mobile and Distributed Systems, while pursuing my Master of Science in Engineering (MSE) with a specialization in Information and Cyber Security.",
       "I hold a Bachelor's degree in Computer Science from the University of Basel.",
-      "I enjoy building things for the web, working with Linux, and exploring topics in security and systems programming."
+      "I enjoy working and tweaking with Linux, exploring new technologies and frameworks, and working on small side projects in my free time."
     ]
   },
   "skills": {
@@ -51,6 +51,14 @@
     "trshell": {
       "title": "TRShell",
       "description": "A custom Linux shell built as an OS project, featuring tiling window manager-like functionality to manage multiple shells and jobs."
+    },
+    "walrus": {
+      "title": "Walrus",
+      "description": "A lightweight CLI time tracking tool written in Rust. Contributed concurrent session support, topic-based filtering, and various bug fixes."
+    },
+    "libafl": {
+      "title": "LibAFL",
+      "description": "Advanced fuzzing library written in Rust. Working on concolic execution support to analyze binary libraries without source code, starting at a custom entry point."
     }
   },
   "contact": {
@@ -61,8 +69,5 @@
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "email": "Email"
-  },
-  "footer": {
-    "builtWith": "Built with"
   }
 }
