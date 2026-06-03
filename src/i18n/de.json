@@ -59,10 +59,6 @@
     "libafl": {
       "title": "LibAFL",
       "description": "Erweiterte Fuzzing-Bibliothek in Rust. Arbeit an der Unterstützung für concolic Ausführung zur Analyse von Binärbibliotheken ohne Quellcode, beginnend an einem wählbaren Einstiegspunkt."
-    },
-    "portfolio": {
-      "title": "Portfolio-Website",
-      "description": "Diese Portfolio-Website. Entwickelt mit Astro und TypeScript, mit mehrsprachigem Inhalt (en/de/fr/it) und Tailwind CSS."
     }
   },
   "contact": {

@@ -59,10 +59,6 @@
     "libafl": {
       "title": "LibAFL",
       "description": "Advanced fuzzing library written in Rust. Working on concolic execution support to analyze binary libraries without source code, starting at a custom entry point."
-    },
-    "portfolio": {
-      "title": "Portfolio Website",
-      "description": "This portfolio site. Built with Astro and TypeScript, with multilingual content (en/de/fr/it) and Tailwind CSS."
     }
   },
   "contact": {
