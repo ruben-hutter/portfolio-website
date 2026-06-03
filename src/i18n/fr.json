@@ -21,7 +21,7 @@
   "profile": {
     "tagline": "Assistant de recherche et étudiant MSE en Information & Cyber Security",
     "bio": [
-      "Je suis assistant de recherche à la FHNW à l'Institut des systèmes mobiles et distribués, tout en poursuivant mon Master of Science in Engineering (MSE) avec spécialisation en Information and Cyber Security.",
+      "Je suis assistant de recherche à l'Institut des systèmes mobiles et distribués de la FHNW, tout en poursuivant mon Master of Science in Engineering (MSE) avec spécialisation en Information and Cyber Security.",
       "Je suis titulaire d'un bachelor en informatique de l'Université de Bâle.",
       "J'aime travailler et bidouiller avec Linux, explorer de nouvelles technologies et frameworks, et travailler sur de petits projets personnels pendant mon temps libre."
     ]
@@ -42,7 +42,7 @@
     },
     "traceguard": {
       "title": "TraceGuard",
-      "description": "Recherche sur l'optimisation de l'exploration de chemins dans l'exécution symbolique en utilisant l'analyse de marquage pour prioriser les entrées utilisateur."
+      "description": "Recherche sur l'optimisation de l'exploration de chemins dans l'exécution symbolique en utilisant la taint analysis pour prioriser les entrées utilisateur."
     },
     "xc-cup-ranker": {
       "title": "XC-Cup Ranker",
@@ -50,7 +50,7 @@
     },
     "trshell": {
       "title": "TRShell",
-      "description": "Un shell Linux personnalisé, développé comme projet système, avec des fonctionnalités de gestion de fenêtres en mosaïque pour gérer plusieurs shells et jobs."
+      "description": "Un shell Linux personnalisé, développé comme projet système, avec des fonctionnalités de tiling window manager pour gérer plusieurs shells et jobs."
     },
     "walrus": {
       "title": "Walrus",
@@ -59,15 +59,19 @@
     "libafl": {
       "title": "LibAFL",
       "description": "Bibliothèque avancée de fuzzing écrite en Rust. Travail sur l'exécution concolique pour analyser des bibliothèques binaires sans code source, en démarrant à un point d'entrée personnalisé."
+    },
+    "portfolio": {
+      "title": "Site portfolio",
+      "description": "Ce site portfolio. Développé avec Astro et TypeScript, avec contenu multilingue (en/de/fr/it) et Tailwind CSS."
     }
   },
   "contact": {
-    "heading": "Me contacter",
+    "heading": "Restons en contact",
     "description": "Je suis toujours ouvert aux nouvelles opportunités, projets intéressants ou simplement pour échanger."
   },
   "social": {
     "github": "GitHub",
     "linkedin": "LinkedIn",
-    "email": "Courriel"
+    "email": "E-mail"
   }
 }

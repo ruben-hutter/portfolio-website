@@ -8,7 +8,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     slug: 'cvlt',
-    tags: ['TypeScript', 'Next.js', 'Tailwind CSS'],
+    tags: ['TypeScript', 'Next.js', 'Payload CMS', 'Tailwind CSS'],
     github: 'https://github.com/ruben-hutter/cvlt_web',
     demo: 'https://cvlt.ch',
   },
@@ -36,5 +36,11 @@ export const projects: Project[] = [
     slug: 'libafl',
     tags: ['Rust', 'C'],
     github: 'https://github.com/AFLplusplus/LibAFL',
+  },
+  {
+    slug: 'portfolio',
+    tags: ['Astro', 'TypeScript', 'Tailwind CSS'],
+    github: 'https://github.com/ruben-hutter/portfolio-website',
+    demo: 'https://rubenhutter.ch',
   },
 ];

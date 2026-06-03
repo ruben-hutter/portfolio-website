@@ -1,7 +1,7 @@
 {
   "layout": {
     "title": "Ruben Hutter — Portfolio",
-    "description": "Ruben Hutter's Portfolio — MSE-Student in Information & Cyber Security an der FHNW."
+    "description": "Ruben Hutters Portfolio — MSE-Student in Information & Cyber Security an der FHNW."
   },
   "nav": {
     "home": "Startseite",
@@ -27,7 +27,7 @@
     ]
   },
   "skills": {
-    "languages": "Sprachen",
+    "languages": "Programmiersprachen",
     "web-frameworks": "Web & Frameworks",
     "tools-platforms": "Tools & Plattformen",
     "interests": "Interessen"
@@ -38,7 +38,7 @@
     "demoLink": "Live-Demo →",
     "cvlt": {
       "title": "cvlt.ch",
-      "description": "Website für den Club Volo Libero Ticino — einen Gleitschirmclub im Tessin. Entwickelt mit Next.js und TypeScript mit modernem Design und Content Management."
+      "description": "Website für den Club Volo Libero Ticino — einen Gleitschirmclub im Tessin. Entwickelt mit Next.js und TypeScript, mit modernem Design und Content Management."
     },
     "traceguard": {
       "title": "TraceGuard",
@@ -54,15 +54,19 @@
     },
     "walrus": {
       "title": "Walrus",
-      "description": "Ein leichtgewichtiges CLI-Zeiterfassungstool in Rust. Beitrag zur Unterstützung gleichzeitiger Sitzungen, themenbasierter Filterung und diversen Fehlerbehebungen."
+      "description": "Ein leichtgewichtiges CLI-Zeiterfassungstool in Rust. Beiträge: Unterstützung für gleichzeitige Sitzungen, themenbasierte Filterung und diverse Fehlerbehebungen."
     },
     "libafl": {
       "title": "LibAFL",
-      "description": "Erweiterte Fuzzing-Bibliothek in Rust. Arbeit an der Unterstützung für concolic Ausführung zur Analyse von Binärbibliotheken ohne Quellcode, startend an einem wählbaren Einstiegspunkt."
+      "description": "Erweiterte Fuzzing-Bibliothek in Rust. Arbeit an der Unterstützung für concolic Ausführung zur Analyse von Binärbibliotheken ohne Quellcode, beginnend an einem wählbaren Einstiegspunkt."
+    },
+    "portfolio": {
+      "title": "Portfolio-Website",
+      "description": "Diese Portfolio-Website. Entwickelt mit Astro und TypeScript, mit mehrsprachigem Inhalt (en/de/fr/it) und Tailwind CSS."
     }
   },
   "contact": {
-    "heading": "Kontakt aufnehmen",
+    "heading": "Vernetzen wir uns",
     "description": "Ich bin immer offen für neue Möglichkeiten, interessante Projekte oder einfach einen Austausch."
   },
   "social": {

@@ -17,7 +17,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     labelKey: 'social.email',
-    url: 'mailto:ruben@example.com',
+    url: 'mailto:ruben.hutter@rubenhutter.ch',
     icon: 'mail',
   },
 ];
