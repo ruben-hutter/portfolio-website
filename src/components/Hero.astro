@@ -14,9 +14,11 @@ const t = useTranslations(lang);
   <div class="max-w-5xl mx-auto px-4 sm:px-6 py-20">
     <div class="flex flex-col md:flex-row items-center gap-12">
       <div class="flex-1 text-center md:text-left">
-        <p class="text-indigo-500 dark:text-indigo-400 font-medium mb-2">{t('hero.greeting')}</p>
+        <p class="font-mono text-sm mb-3 text-gray-400 dark:text-gray-500">
+          <span>{t('hero.greeting')}</span> <span class="text-green-500 dark:text-green-400">{t('hero.command')}</span>
+        </p>
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-          {profile.name}
+          {profile.name}<span class="cursor-blink text-green-500 dark:text-green-400">_</span>
         </h1>
         <p class="text-xl text-gray-600 dark:text-gray-300 mb-6">
           {t('profile.tagline')}
@@ -24,13 +26,13 @@ const t = useTranslations(lang);
         <div class="flex flex-wrap gap-4 justify-center md:justify-start">
           <a
             href="#projects"
-            class="inline-flex items-center px-6 py-3 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition-colors font-medium"
+            class="inline-flex items-center px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors font-mono font-medium text-sm"
           >
             {t('hero.viewWork')}
           </a>
           <a
             href="#contact"
-            class="inline-flex items-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:border-indigo-500 dark:hover:border-indigo-400 transition-colors font-medium"
+            class="inline-flex items-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:border-green-500 dark:hover:border-green-400 hover:text-green-500 dark:hover:text-green-400 transition-colors font-mono font-medium text-sm"
           >
             {t('hero.getInTouch')}
           </a>
@@ -40,9 +42,25 @@ const t = useTranslations(lang);
         <img
           src={profile.profileImage}
           alt={profile.name}
-          class="w-64 h-64 rounded-full object-cover shadow-xl ring-4 ring-indigo-500/20"
+          class="w-64 h-64 rounded-full object-cover shadow-xl ring-4 ring-green-500/20"
         />
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  .cursor-blink {
+    animation: blink 1s step-end infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cursor-blink {
+      animation: none;
+      opacity: 1;
+    }
+  }
+</style>

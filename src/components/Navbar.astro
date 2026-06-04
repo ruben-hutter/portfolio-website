@@ -28,28 +28,28 @@ const localeLinks = (Object.keys(languages) as Lang[]).map((l) => ({
 >
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
     <div class="flex items-center justify-between h-16">
-      <a href="#home" class="text-lg font-bold text-gray-900 dark:text-white">
-        Ruben<span class="text-indigo-500">.</span>
+      <a href="#home" class="text-lg font-bold font-mono text-gray-900 dark:text-white">
+        Ruben<span class="text-green-500">.</span>
       </a>
 
       <div class="hidden sm:flex items-center gap-6">
         {navLinks.map((link) => (
           <a
             href={link.href}
-            class="text-sm text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors"
+            class="text-sm text-gray-600 dark:text-gray-300 hover:text-green-500 dark:hover:text-green-400 transition-colors"
           >
             {link.label}
           </a>
         ))}
-        <div class="flex items-center gap-1 text-xs border-l border-gray-200 dark:border-gray-700 pl-4">
+        <div class="flex items-center gap-1 text-xs border-l border-gray-200 dark:border-gray-700 pl-4 font-mono">
           {localeLinks.map((link) => (
             <a
               href={link.href}
               class:list={[
                 'px-1.5 py-0.5 rounded transition-colors',
                 link.active
-                  ? 'text-indigo-500 font-semibold'
-                  : 'text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400',
+                  ? 'text-green-500 font-semibold'
+                  : 'text-gray-500 dark:text-gray-400 hover:text-green-500 dark:hover:text-green-400',
               ]}
             >
               {link.code.toUpperCase()}
@@ -89,20 +89,20 @@ const localeLinks = (Object.keys(languages) as Lang[]).map((l) => ({
       {navLinks.map((link) => (
         <a
           href={link.href}
-          class="block text-sm text-gray-600 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-400 py-2"
+          class="block text-sm text-gray-600 dark:text-gray-300 hover:text-green-500 dark:hover:text-green-400 py-2"
         >
           {link.label}
         </a>
       ))}
-      <div class="flex items-center gap-2 pt-2 border-t border-gray-200 dark:border-gray-700">
+      <div class="flex items-center gap-2 pt-2 border-t border-gray-200 dark:border-gray-700 font-mono">
         {localeLinks.map((link) => (
           <a
             href={link.href}
             class:list={[
               'text-xs px-2 py-1 rounded transition-colors',
               link.active
-                ? 'text-indigo-500 font-semibold'
-                : 'text-gray-500 dark:text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400',
+                ? 'text-green-500 font-semibold'
+                : 'text-gray-500 dark:text-gray-400 hover:text-green-500 dark:hover:text-green-400',
             ]}
           >
             {link.code.toUpperCase()}
@@ -112,7 +112,7 @@ const localeLinks = (Object.keys(languages) as Lang[]).map((l) => ({
       <button
         id="theme-toggle-mobile"
         type="button"
-        class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 hover:text-indigo-500 py-2"
+        class="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-300 hover:text-green-500 py-2"
         aria-label="Toggle dark mode"
       >
         <svg class="w-4 h-4 theme-icon-dark hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">

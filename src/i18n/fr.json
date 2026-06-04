@@ -10,7 +10,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Bonjour, je suis",
+    "greeting": "~/ruben $",
+    "command": "whoami",
     "viewWork": "Voir mes projets",
     "getInTouch": "Me contacter"
   },

@@ -10,10 +10,10 @@ const t = useTranslations(lang);
 const year = new Date().getFullYear();
 ---
 
-<footer class="py-8 border-t border-gray-200 dark:border-gray-800">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-    <p class="text-sm text-gray-500 dark:text-gray-400">
-      &copy; {year} Ruben Hutter.
-    </p>
+<footer class="py-2 border-t border-green-500/30 dark:border-green-400/30 bg-gray-50 dark:bg-gray-900/80">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 flex justify-between items-center">
+    <span class="text-xs font-mono text-green-600 dark:text-green-400">[0]</span>
+    <span class="text-xs font-mono text-gray-400 dark:text-gray-500">&copy; {year} Ruben Hutter</span>
+    <span aria-hidden="true"></span>
   </div>
 </footer>

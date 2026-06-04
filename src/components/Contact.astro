@@ -18,8 +18,10 @@ const iconPaths: Record<string, string> = {
 
 <section id="contact" class="py-20 bg-gray-50 dark:bg-gray-800/50">
   <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-    <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">{t('contact.heading')}</h2>
-    <div class="w-16 h-1 bg-indigo-500 mx-auto mb-8 rounded-full"></div>
+    <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+      <span class="text-green-500 dark:text-green-400 font-mono text-xl">// </span>{t('contact.heading')}
+    </h2>
+    <div class="w-16 h-1 bg-green-500 mx-auto mb-8 rounded-full"></div>
     <p class="text-gray-600 dark:text-gray-300 mb-10 max-w-lg mx-auto">
       {t('contact.description')}
     </p>
@@ -29,7 +31,7 @@ const iconPaths: Record<string, string> = {
           href={link.url}
           target={link.url.startsWith('mailto') ? undefined : '_blank'}
           rel={link.url.startsWith('mailto') ? undefined : 'noopener noreferrer'}
-          class="inline-flex items-center gap-2 px-6 py-3 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-gray-700 dark:text-gray-300 hover:border-indigo-500 dark:hover:border-indigo-400 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors font-medium shadow-sm"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-gray-700 dark:text-gray-300 hover:border-green-500 dark:hover:border-green-400 hover:text-green-500 dark:hover:text-green-400 transition-colors font-mono font-medium text-sm shadow-sm"
         >
           <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
             <path d={iconPaths[link.icon]} />
