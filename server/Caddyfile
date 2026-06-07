@@ -1,8 +1,0 @@
-rubenhutter.ch, www.rubenhutter.ch {
-	@www host www.rubenhutter.ch
-	redir @www https://rubenhutter.ch{uri} permanent
-
-	reverse_proxy localhost:8080
-
-	encode gzip
-}
