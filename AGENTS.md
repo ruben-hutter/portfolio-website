@@ -10,7 +10,9 @@ Live at [rubenhutter.ch](https://rubenhutter.ch).
 | Framework | **Astro** |
 | Styling | **Tailwind CSS** |
 | Hosting | **VPS** (buba) — Ubuntu 26.04 |
-| Reverse proxy | **Caddy** — automatic HTTPS |
+| Container runtime | **Podman** + Quadlet (systemd user unit) |
+| Container server | **nginx** (alpine) — serves static files with security headers |
+| Reverse proxy | **Caddy** — automatic HTTPS, reverse proxy to container |
 | Analytics | TBD (GoatCounter planned) |
 
 ## i18n
@@ -19,8 +21,10 @@ Multilingual with locales: `en`, `de`, `fr`, `it`. English is default (no prefix
 ## Server (buba)
 - SSH: key-only auth, port 22
 - Firewall: UFW (22/80/443)
-- Caddy serves static files from `/home/ubuntu/portfolio/dist`
-- Deploy: git pull + npm build on server via `deploy.sh`
+- Caddy reverse-proxies to Podman container on `localhost:8080`
+- Container: nginx (alpine) serves static files with security headers
+- Quadlet unit: `~/.config/containers/systemd/portfolio.container`
+- Deploy: git pull + podman build + container restart via `deploy.sh`
 - Unattended security upgrades: active
 - See TODO.md for outstanding server tasks
 
