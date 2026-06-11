@@ -2,7 +2,7 @@ FROM node:22-alpine AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci
-COPY astro.config.mjs tailwind.config.mjs tsconfig.json ./
+COPY astro.config.mjs tsconfig.json ./
 COPY src/ src/
 COPY public/ public/
 COPY assets/ assets/
