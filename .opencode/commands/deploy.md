@@ -35,9 +35,9 @@ If the changes address an open GitHub issue:
 - If there is no related issue, skip this step
 
 ## 6. Deploy to buba
-SSH into buba and run the deploy script:
+SSH into buba and run the deploy script (git pull + podman build + container restart):
 ```bash
-ssh buba "cd ~/portfolio && git pull && npm ci --omit=dev && npm run build"
+ssh buba "~/portfolio/deploy.sh"
 ```
 
 If the deploy fails, report the error and stop.

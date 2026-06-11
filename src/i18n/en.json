@@ -1,74 +1,74 @@
 {
-  "layout": {
-    "title": "Ruben Hutter — Portfolio",
-    "description": "Ruben Hutter's portfolio — MSE student in Information & Cyber Security at FHNW."
-  },
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "projects": "Projects",
-    "contact": "Contact"
-  },
-  "hero": {
-    "greeting": "~/ruben $",
-    "command": "whoami",
-    "viewWork": "View My Work",
-    "getInTouch": "Get In Touch"
-  },
-  "about": {
-    "heading": "About Me",
-    "skillsHeading": "Skills & Technologies"
-  },
-  "profile": {
-    "tagline": "Research Assistant & MSE Student in Information & Cyber Security",
-    "bio": [
-      "I'm a Research Assistant at FHNW in the Institute of Mobile and Distributed Systems, while pursuing my Master of Science in Engineering (MSE) with a specialization in Information and Cyber Security.",
-      "I hold a Bachelor's degree in Computer Science from the University of Basel.",
-      "I enjoy working and tweaking with Linux, exploring new technologies and frameworks, and working on small side projects in my free time."
-    ]
-  },
-  "skills": {
-    "languages": "Languages",
-    "web-frameworks": "Web & Frameworks",
-    "tools-platforms": "Tools & Platforms",
-    "interests": "Interests"
-  },
-  "projects": {
-    "heading": "Projects",
-    "githubLink": "GitHub →",
-    "demoLink": "Live Demo →",
-    "cvlt": {
-      "title": "cvlt.ch",
-      "description": "Website for Club Volo Libero Ticino — a paragliding club in Ticino, Switzerland. Built with Next.js and TypeScript, featuring a modern design and content management."
+    "layout": {
+        "title": "Ruben Hutter — Portfolio",
+        "description": "Ruben Hutter's portfolio — MSE student in Information & Cyber Security at FHNW."
     },
-    "traceguard": {
-      "title": "TraceGuard",
-      "description": "Research on optimizing path exploration in symbolic execution using taint analysis to prioritize user inputs."
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
     },
-    "xc-cup-ranker": {
-      "title": "XC-Cup Ranker",
-      "description": "Automatically generates ranking lists for Swissleague XC-Cup paragliding events by scraping flight data from XContest."
+    "hero": {
+        "greeting": "~/ruben$",
+        "command": "whoami",
+        "viewWork": "View My Work",
+        "getInTouch": "Get In Touch"
     },
-    "trshell": {
-      "title": "TRShell",
-      "description": "A custom Linux shell built as an OS project, featuring tiling window manager-like functionality to manage multiple shells and jobs."
+    "about": {
+        "heading": "About Me",
+        "skillsHeading": "Skills & Technologies"
     },
-    "walrus": {
-      "title": "Walrus",
-      "description": "A lightweight CLI time tracking tool written in Rust. Contributed concurrent session support, topic-based filtering, and various bug fixes."
+    "profile": {
+        "tagline": "Research Assistant & MSE Student in Information & Cyber Security",
+        "bio": [
+            "I'm a Research Assistant at FHNW's Institute of Mobile and Distributed Systems, where I work on detecting configuration errors in IT and OT networks, while pursuing a Master of Science in Engineering (MSE) in Information and Cyber Security with a focus on fuzzing and symbolic execution.",
+            "Before that, I earned my Bachelor's degree in Computer Science at the University of Basel.",
+            "Outside of research, I like tinkering with Linux, trying out new tools and frameworks, and chipping away at side projects in my free time."
+        ]
     },
-    "libafl": {
-      "title": "LibAFL",
-      "description": "Advanced fuzzing library written in Rust. Working on concolic execution support to analyze binary libraries without source code, starting at a custom entry point."
+    "skills": {
+        "languages": "Languages",
+        "web-frameworks": "Web & Frameworks",
+        "tools-platforms": "Tools & Platforms",
+        "interests": "Interests"
+    },
+    "projects": {
+        "heading": "Projects",
+        "githubLink": "GitHub →",
+        "demoLink": "Live Demo →",
+        "cvlt": {
+            "title": "cvlt.ch",
+            "description": "Website for Club Volo Libero Ticino, a paragliding club in Ticino, Switzerland — with a modern design and a content management system the club maintains itself."
+        },
+        "traceguard": {
+            "title": "TraceGuard",
+            "description": "Speeds up symbolic execution by using taint analysis to prioritize the inputs that matter most."
+        },
+        "xc-cup-ranker": {
+            "title": "XC-Cup Ranker",
+            "description": "Automatically generates ranking lists for Swissleague XC-Cup paragliding events by pulling flight data from XContest."
+        },
+        "trshell": {
+            "title": "TRShell",
+            "description": "A custom Linux shell built as an OS project, with tiling-window-manager-style controls for juggling multiple shells and jobs."
+        },
+        "walrus": {
+            "title": "Walrus",
+            "description": "A lightweight Rust CLI for time tracking. I contributed concurrent-session support, topic-based filtering, and various bug fixes."
+        },
+        "libafl": {
+            "title": "LibAFL",
+            "description": "The AFL++ project's Rust fuzzing library. I'm adding concolic-execution support so it can analyze binary-only libraries starting from a custom entry point."
+        }
+    },
+    "contact": {
+        "heading": "Let's Connect",
+        "description": "Always happy to talk about fuzzing, Linux setups, or paragliding — or any interesting project or opportunity."
+    },
+    "social": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "email": "Email"
     }
-  },
-  "contact": {
-    "heading": "Let's Connect",
-    "description": "I'm always open to discussing new opportunities, interesting projects, or just having a chat."
-  },
-  "social": {
-    "github": "GitHub",
-    "linkedin": "LinkedIn",
-    "email": "Email"
-  }
 }

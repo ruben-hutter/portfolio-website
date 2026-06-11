@@ -6,7 +6,7 @@ export interface SkillGroup {
 export const skillGroups: SkillGroup[] = [
   {
     slug: 'languages',
-    skills: ['Java', 'Python', 'C', 'C++', 'Rust', 'Bash', 'JavaScript', 'TypeScript', 'SQL', 'Lua', 'MATLAB', 'TeX', 'Typst'],
+    skills: ['Java', 'Python', 'C', 'C++', 'Rust', 'Bash', 'TypeScript', 'SQL', 'Lua'],
   },
   {
     slug: 'web-frameworks',
@@ -18,6 +18,6 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     slug: 'interests',
-    skills: ['Systems Programming', 'Cybersecurity', 'Homelab & Infrastructure', 'Web Development', 'Open Source'],
+    skills: ['Symbolic Execution', 'Fuzzing', 'Binary Analysis', 'Reverse Engineering', 'Homelab & Infrastructure'],
   },
 ];

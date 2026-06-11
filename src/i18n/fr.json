@@ -1,74 +1,74 @@
 {
-  "layout": {
-    "title": "Ruben Hutter — Portfolio",
-    "description": "Portfolio de Ruben Hutter — étudiant MSE en Information & Cyber Security à la FHNW."
-  },
-  "nav": {
-    "home": "Accueil",
-    "about": "À propos",
-    "projects": "Projets",
-    "contact": "Contact"
-  },
-  "hero": {
-    "greeting": "~/ruben $",
-    "command": "whoami",
-    "viewWork": "Voir mes projets",
-    "getInTouch": "Me contacter"
-  },
-  "about": {
-    "heading": "À propos",
-    "skillsHeading": "Compétences et technologies"
-  },
-  "profile": {
-    "tagline": "Assistant de recherche et étudiant MSE en Information & Cyber Security",
-    "bio": [
-      "Je suis assistant de recherche à l'Institut des systèmes mobiles et distribués de la FHNW, tout en poursuivant mon Master of Science in Engineering (MSE) avec spécialisation en Information and Cyber Security.",
-      "Je suis titulaire d'un bachelor en informatique de l'Université de Bâle.",
-      "J'aime travailler et bidouiller avec Linux, explorer de nouvelles technologies et frameworks, et travailler sur de petits projets personnels pendant mon temps libre."
-    ]
-  },
-  "skills": {
-    "languages": "Langages",
-    "web-frameworks": "Web et frameworks",
-    "tools-platforms": "Outils et plateformes",
-    "interests": "Centres d'intérêt"
-  },
-  "projects": {
-    "heading": "Projets",
-    "githubLink": "GitHub →",
-    "demoLink": "Démo en ligne →",
-    "cvlt": {
-      "title": "cvlt.ch",
-      "description": "Site web du Club Volo Libero Ticino — un club de parapente au Tessin. Développé avec Next.js et TypeScript, avec un design moderne et une gestion de contenu."
+    "layout": {
+        "title": "Ruben Hutter — Portfolio",
+        "description": "Portfolio de Ruben Hutter — étudiant MSE en Information & Cyber Security à la FHNW."
     },
-    "traceguard": {
-      "title": "TraceGuard",
-      "description": "Recherche sur l'optimisation de l'exploration de chemins dans l'exécution symbolique en utilisant la taint analysis pour prioriser les entrées utilisateur."
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "projects": "Projets",
+        "contact": "Contact"
     },
-    "xc-cup-ranker": {
-      "title": "XC-Cup Ranker",
-      "description": "Génère automatiquement des classements pour les événements de parapente Swissleague XC-Cup en extrayant les données de vol de XContest."
+    "hero": {
+        "greeting": "~/ruben$",
+        "command": "whoami",
+        "viewWork": "Voir mes projets",
+        "getInTouch": "Me contacter"
     },
-    "trshell": {
-      "title": "TRShell",
-      "description": "Un shell Linux personnalisé, développé comme projet système, avec des fonctionnalités de tiling window manager pour gérer plusieurs shells et jobs."
+    "about": {
+        "heading": "À propos",
+        "skillsHeading": "Compétences et technologies"
     },
-    "walrus": {
-      "title": "Walrus",
-      "description": "Un outil CLI léger de suivi du temps écrit en Rust. Contribution au support des sessions simultanées, du filtrage par sujet et de diverses corrections."
+    "profile": {
+        "tagline": "Assistant de recherche et étudiant MSE en Information & Cyber Security",
+        "bio": [
+            "Je suis assistant de recherche à l'Institut des systèmes mobiles et distribués de la FHNW, où je travaille sur la détection d'erreurs de configuration dans les réseaux IT et OT, tout en poursuivant mon Master of Science in Engineering (MSE) en Information and Cyber Security, axé sur le fuzzing et l'exécution symbolique.",
+            "Auparavant, j'ai obtenu mon bachelor en informatique à l'Université de Bâle.",
+            "En dehors de la recherche, j'aime bidouiller avec Linux, explorer de nouveaux outils et frameworks, et avancer sur de petits projets personnels pendant mon temps libre."
+        ]
     },
-    "libafl": {
-      "title": "LibAFL",
-      "description": "Bibliothèque avancée de fuzzing écrite en Rust. Travail sur l'exécution concolique pour analyser des bibliothèques binaires sans code source, en démarrant à un point d'entrée personnalisé."
+    "skills": {
+        "languages": "Langages",
+        "web-frameworks": "Web et frameworks",
+        "tools-platforms": "Outils et plateformes",
+        "interests": "Centres d'intérêt"
+    },
+    "projects": {
+        "heading": "Projets",
+        "githubLink": "GitHub →",
+        "demoLink": "Démo en ligne →",
+        "cvlt": {
+            "title": "cvlt.ch",
+            "description": "Site web du Club Volo Libero Ticino, un club de parapente au Tessin (Suisse) — avec un design moderne et un système de gestion de contenu que le club administre lui-même."
+        },
+        "traceguard": {
+            "title": "TraceGuard",
+            "description": "Accélère l'exécution symbolique en utilisant la taint analysis pour prioriser les entrées les plus importantes."
+        },
+        "xc-cup-ranker": {
+            "title": "XC-Cup Ranker",
+            "description": "Génère automatiquement les classements des événements de parapente Swissleague XC-Cup en récupérant les données de vol depuis XContest."
+        },
+        "trshell": {
+            "title": "TRShell",
+            "description": "Un shell Linux personnalisé, développé comme projet système, avec des commandes façon tiling window manager pour jongler entre plusieurs shells et tâches."
+        },
+        "walrus": {
+            "title": "Walrus",
+            "description": "Un outil CLI léger de suivi du temps écrit en Rust. J'ai contribué au support des sessions simultanées, au filtrage par sujet et à diverses corrections."
+        },
+        "libafl": {
+            "title": "LibAFL",
+            "description": "La bibliothèque de fuzzing en Rust du projet AFL++. J'ajoute le support de l'exécution concolique afin d'analyser des bibliothèques binaires sans code source, à partir d'un point d'entrée personnalisé."
+        }
+    },
+    "contact": {
+        "heading": "Restons en contact",
+        "description": "Toujours partant pour parler de fuzzing, de configurations Linux ou de parapente — ou de tout projet ou opportunité intéressante."
+    },
+    "social": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "email": "E-mail"
     }
-  },
-  "contact": {
-    "heading": "Restons en contact",
-    "description": "Je suis toujours ouvert aux nouvelles opportunités, projets intéressants ou simplement pour échanger."
-  },
-  "social": {
-    "github": "GitHub",
-    "linkedin": "LinkedIn",
-    "email": "E-mail"
-  }
 }
