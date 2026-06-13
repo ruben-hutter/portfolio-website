@@ -33,8 +33,8 @@
     mobileMenu?.classList.toggle('hidden')
   })
 
-  mobileMenu?.querySelectorAll('a').forEach(function (link) {
-    link.addEventListener('click', function () {
+  mobileMenu?.querySelectorAll('a, button').forEach(function (el) {
+    el.addEventListener('click', function () {
       mobileMenu?.classList.add('hidden')
     })
   })
