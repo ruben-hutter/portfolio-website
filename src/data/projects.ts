@@ -9,12 +9,12 @@ export const projects: Project[] = [
   {
     slug: 'cvlt',
     tags: ['TypeScript', 'Next.js', 'Payload CMS', 'Tailwind CSS'],
-    github: 'https://github.com/ruben-hutter/cvlt_web',
+    github: 'https://github.com/ruben-hutter/cvlt-web',
     demo: 'https://cvlt.ch',
   },
   {
     slug: 'traceguard',
-    tags: ['TypeScript', 'Python', 'C'],
+    tags: ['Python', 'C'],
     github: 'https://github.com/ruben-hutter/TraceGuard',
   },
   {
