@@ -1,6 +1,5 @@
 ---
 description: "Build and deploy the site to production (buba)"
-agent: build
 ---
 
 You are deploying the current changes to production (rubenhutter.ch on buba). Follow these steps exactly:
@@ -12,10 +11,10 @@ Verify the build works locally:
 If the build fails, STOP and report errors — do not proceed.
 
 ## 2. AI code review
-Invoke the `@reviewer` subagent on the staged diff. Pass it all changed files so it can review for security issues, code quality, and best practices.
+Review the changes to be deployed using the `code-review` skill (uncommitted changes plus commits not yet on the remote). Focus on security issues, code quality, and best practices.
 
-- If the reviewer returns **FAIL**: STOP and report the issues to the user. Do not proceed until the user confirms the issues are acceptable or have been fixed.
-- If the reviewer returns **PASS**: proceed to the next step.
+- If the review finds **critical** issues (FAIL): STOP and report the issues to the user. Do not proceed until the user confirms the issues are acceptable or have been fixed.
+- Otherwise (PASS): proceed to the next step.
 
 ## 3. Commit
 - Run `git status` and `git diff` to see all changes
