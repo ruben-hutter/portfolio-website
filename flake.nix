@@ -14,11 +14,12 @@
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
             nodejs_24
+            pnpm
           ];
 
           shellHook = ''
             echo "Portfolio dev environment"
-            echo "Node $(node --version) | npm $(npm --version)"
+            echo "Node $(node --version) | pnpm $(pnpm --version)"
           '';
         };
       });

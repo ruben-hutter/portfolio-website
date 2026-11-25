@@ -6,7 +6,7 @@ You are deploying the current changes to production (rubenhutter.ch on buba). Fo
 
 ## 1. Pre-flight checks
 Verify the build works locally:
-- `npm run build`
+- `pnpm run build`
 
 If the build fails, STOP and report errors — do not proceed.
 

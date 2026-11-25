@@ -9,6 +9,7 @@ Live at [rubenhutter.ch](https://rubenhutter.ch).
 |:---|:---|
 | Framework | **Astro** |
 | Styling | **Tailwind CSS** |
+| Package manager | **pnpm** (pinned via `packageManager`, provided through corepack in Docker) |
 | Hosting | **VPS** (buba) — Ubuntu 26.04 |
 | Container runtime | **Podman** + Quadlet (systemd user unit) |
 | Container server | **nginx** (alpine) — serves static files with security headers |
@@ -34,9 +35,9 @@ Multilingual with locales: `en`, `de`, `fr`, `it`. English is default (no prefix
 - Always run lint/typecheck before committing
 
 ## Build & Dev Commands
-- `npm run dev` — dev server at localhost:4321
-- `npm run build` — production build to `./dist/`
-- `npm run preview` — preview production build locally
+- `pnpm run dev` — dev server at localhost:4321
+- `pnpm run build` — production build to `./dist/`
+- `pnpm run preview` — preview production build locally
 
 ## Working Conventions
 - Follow `TODO.md` for current priorities
